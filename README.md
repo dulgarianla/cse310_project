@@ -8,11 +8,24 @@ We decided to create this website for like-minded wizards out there. We thought 
 
 # Development Environment
 
-We used MongoDB, Node.js, Visual Studio code as our editor, and express.
+We used MongoDB, Node.js, Visual Studio code as our editor, and Express.
 
 We used HTML, CSS, and javascript.
+
+
+# Collaborators
+
+Emily Raventos, Lauren Dulgarian, Braxton Medieros, Chris Jones, Joseph Allen
 
 # Useful Websites
 
 * [w3schools javascript](https://www.w3schools.com/js/)
 * [w3schools mongo](https://www.w3schools.com/mongodb/)
+
+
+# Future Work
+
+{Make a list of things that you need to fix, improve, and add in the future.}
+* Working shopping cart
+* Profile for the user
+* Error handling and validation
