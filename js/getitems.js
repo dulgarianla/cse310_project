@@ -54,7 +54,8 @@ function createItemContainer(itemData, container) {
 
     var itemImage = document.createElement('img');
     itemImage.classList.add('card-img-top'); // Add any additional classes if needed
-    itemImage.src = itemData.url;
+
+    itemImage.src = itemData.image;
     itemImage.alt = itemData.Item + 'Image'; // Add alt text for accessibility
 
     var addButton = document.createElement("button");
@@ -63,9 +64,10 @@ function createItemContainer(itemData, container) {
 
     // Append elements to the card body
     cardBody.appendChild(itemName);
+    cardBody.appendChild(itemImage)
     cardBody.appendChild(itemPrice);
-    cardBody.appendChild(itemDesc);
     cardBody.appendChild(itemStock);
+    cardBody.appendChild(itemDesc);
     cardBody.appendChild(addButton);
 
     // Append card body to the card
