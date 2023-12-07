@@ -59,6 +59,7 @@ function createItemContainer(itemData, container) {
     itemImage.alt = itemData.Item + 'Image'; // Add alt text for accessibility
 
     var addButton = document.createElement("button");
+    addButton.id = itemData.Item + "Button";
     addButton.classList.add("btn", "btn-primary", "mx-auto");
     addButton.textContent = "Add Item";
 
