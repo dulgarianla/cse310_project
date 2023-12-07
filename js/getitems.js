@@ -52,6 +52,11 @@ function createItemContainer(itemData, container) {
     itemStock.classList.add('card-text', 'm-0', 'p-0');
     itemStock.textContent = 'In Stock: ' + itemData.In_Stock + '/' + itemData.Total_Stock;
 
+    var itemImage = document.createElement('img');
+    itemImage.classList.add('card-img-top'); // Add any additional classes if needed
+    itemImage.src = itemData.url;
+    itemImage.alt = itemData.Item + 'Image'; // Add alt text for accessibility
+
     var addButton = document.createElement("button");
     addButton.classList.add("btn", "btn-primary", "mx-auto");
     addButton.textContent = "Add Item";
