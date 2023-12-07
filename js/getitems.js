@@ -44,6 +44,10 @@ function createItemContainer(itemData, container) {
     itemPrice.classList.add('card-text', 'm-0', 'p-0');
     itemPrice.textContent = 'Price: $' + itemData.Price;
 
+    var itemDesc = document.createElement('p');
+    itemDesc.classList.add('card-text', 'm-0', 'p-0');
+    itemDesc.textContent = itemData.description;
+
     var itemStock = document.createElement('p');
     itemStock.classList.add('card-text', 'm-0', 'p-0');
     itemStock.textContent = 'In Stock: ' + itemData.In_Stock + '/' + itemData.Total_Stock;
@@ -55,6 +59,7 @@ function createItemContainer(itemData, container) {
     // Append elements to the card body
     cardBody.appendChild(itemName);
     cardBody.appendChild(itemPrice);
+    cardBody.appendChild(itemDesc);
     cardBody.appendChild(itemStock);
     cardBody.appendChild(addButton);
 
