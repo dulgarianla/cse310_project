@@ -5,17 +5,11 @@ img.logo {
   max-width: 170px;
 }
 .icon-sli-basket::before {
-  color: #444;
+  color: white;
   font-size: 1.3rem;
   margin-right: 5px;
   top: 2px;
   position: relative;
-}
-#header-carousel .owl-dots {
-  margin-top: -30px !important;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 20px;
 }
 footer {
   background:#fff;
