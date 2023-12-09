@@ -26,6 +26,7 @@ Emily Raventos, Lauren Dulgarian, Braxton Medieros, Chris Jones, Joseph Allen
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
+* Style it
 * Working shopping cart
 * Profile for the user
 * Error handling and validation
