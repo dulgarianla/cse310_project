@@ -4,7 +4,8 @@ Welcome to the WizzieWizard store! Here you can buy all things wizard! Looking f
 
 We decided to create this website for like-minded wizards out there. We thought it would be cool to set up a wizard store for anyone to access!
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video Part 1](http://youtube.link.goes.here)
+[Software Demo Video Part 2](http://youtube.link.goes.here)
 
 # Development Environment
 
